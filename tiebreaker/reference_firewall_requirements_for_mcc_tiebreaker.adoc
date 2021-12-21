@@ -40,36 +40,54 @@ a|
 a|
 Tiebreaker
 a|
-MetroCluster management LIFs
+MetroCluster Cluster Management LIFs
 a|
-Secure communications via HTTP (SSL)
+Secure communications to cluster IP via HTTP (SSL)
 a|
 22 / TCP
 
 a|
 Tiebreaker
 a|
-MetroCluster management LIFs
+MetroCluster Cluster Management LIFs
 a|
-Secure communications via SSH
+Secure communications to cluster IP via SSH
+a|
+ICMP (ping)
+
+a|
+Tiebreaker
+a|
+MetroCluster Cluster Management LIFs
+a|
+Check if cluster IP is reachable
 a|
 443 / TCP
 
 a|
 Tiebreaker
 a|
-MetroCluster management LIFs
+MetroCluster Node Management LIFs
 a|
-Secure communications via HTTP (SSL)
+Secure communications to node IP via HTTP (SSL)
 a|
 22 / TCP
 
 a|
 Tiebreaker
 a|
-MetroCluster management LIFs
+MetroCluster Node Management LIFs
 a|
-Secure communications via SSH
+Secure communications to node IP via SSH
+a|
+ICMP (ping)
+
+a|
+Tiebreaker
+a|
+MetroCluster Node Management LIFs
+a|
+Check if node IP is reachable
 a|
 162 / UDP
 
@@ -79,22 +97,4 @@ a|
 SNMP trap host
 a|
 Used to send alert notification SNMP traps
-a|
-ICMP (ping)
-
-a|
-Tiebreaker
-a|
-MetroCluster management LIFs
-a|
-Check if cluster IP is reachable
-a|
-ICMP (ping)
-
-a|
-Tiebreaker
-a|
-MetroCluster management LIFs
-a|
-Check if node IP is reachable
 |===
